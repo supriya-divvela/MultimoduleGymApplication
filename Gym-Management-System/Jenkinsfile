@@ -12,6 +12,7 @@ pipeline {
 						dir("${module}") {
 							echo "Building ${module}..."
 							bat "cd Gym-Managemnent-System && mvn clean install"
+						}
 					}
 				}
 			}
