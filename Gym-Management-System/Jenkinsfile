@@ -11,7 +11,7 @@ pipeline {
 					for (def module in modules) {
 						dir("${module}") {
 							echo "Building ${module}..."
-							bat "cd Gym-Management-System && mvn clean install"
+							bat "cd MultimoduleGymApplication && mvn clean install"
 						}
 					}
 				}
