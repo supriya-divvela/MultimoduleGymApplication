@@ -10,8 +10,8 @@ pipeline {
 					def modules = ['reports', 'gymapplication','gateway','eurekha','email','auth']
 					for (def module in modules) {
 						dir("${module}") {
-						echo "Building ${module}..."
-						bat "mvn clean install"
+							echo "Building ${module}..."
+							bat "cd Gym-Managemnent-System && mvn clean install"
 					}
 				}
 			}
