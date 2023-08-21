@@ -58,7 +58,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>${project.groupId}/ReportsMangement</name>
+						<name>reports-server</name>
 					</image>
 				</configuration>
 				<executions>
