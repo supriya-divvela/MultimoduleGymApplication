@@ -7,7 +7,7 @@ pipeline {
 		stage("Build Modules & Build Docker Images") {
 			steps {
 				script {
-					def modules = ['reports', 'gymapplication','gateway','eurekha','email','auth']
+					def modules = ['GymApplicationStart', 'AuthenticationService','GatewayServer-2','EurekaServer','EmailNotificationService','ReportsMangement']
 					for (def module in modules) {
 						dir("${module}") {
 							echo "Building ${module}..."
