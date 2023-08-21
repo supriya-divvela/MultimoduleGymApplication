@@ -72,7 +72,7 @@
 <artifactId>spring-boot-maven-plugin</artifactId>
 <configuration>
 <image>
-<name>${project.groupId}/auth</name>
+<name>${project.groupId}/AuthenticationService</name>
 </image>
 </configuration>
 <executions>
